@@ -1,0 +1,24 @@
+.reset {  /* FOR BODY TAG */
+  margin: 0;
+  padding: 0; 
+  width: 100%;
+}
+
+.vertical-center {
+  position: relative;
+  transform: translateY(50%);
+}
+
+.horizontal-center { 
+  display: table; /* FOR IE 8+ */
+  width: 90%;
+  margin: 0 auto!important;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.inline-item {
+  display: inline-block;
+}
